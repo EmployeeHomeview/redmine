@@ -1,3 +1,7 @@
+# session randomness
+
+config.action_controller.session = {:key=> "_myapp_session",:secret=>"234kjhaedlkjhadsfka3e3214adsf234"}
+
 # Be sure to restart your web server when you modify this file.
 
 # Uncomment below to force Rails into production mode when 

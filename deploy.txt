@@ -1,0 +1,17 @@
+Beginning deploy for 'redmine' in 'redmine' on server...
+~> Deploying revision dbbe5e9 test
+~> Pushing code to all servers
+~> Starting full deploy
+~> Copying to /data/redmine/releases/20110705214314
+~> Ensuring proper ownership
+~> Gemfile detected, bundling gems
+~> Symlinking configs
+ln: creating symbolic link `/data/redmine/releases/20110705214314/config/database.yml': File exists
+ln: creating symbolic link `/data/redmine/releases/20110705214314/config/database.yml': File exists
+~> Migrating: cd /data/redmine/releases/20110705214314 && PATH=/data/redmine/releases/20110705214314/ey_bundler_binstubs:$PATH RAILS_ENV=production RACK_ENV=production MERB_ENV=production rake db:migrate --trace
+Missing the Rails 2.3.11 gem. Please `gem install -v=2.3.11 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.
+~> [Attention] Maintenance page still up, consider the following before removing:
+ * any deploy hooks ran, be careful if they were destructive
+ * any migrations ran, be careful if they were destructive
+ * your old code is still symlinked as current
+Failed deployment recorded in AppCloud
