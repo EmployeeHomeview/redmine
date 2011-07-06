@@ -86,7 +86,7 @@ default:
       address: "smtp.emailsrvr.com"
       port: 25
       domain: "employeehomeview.com"
-      authentication: :plain
+      authentication: :login
       user_name: "jstainbrook@employeehomeview.com"
       password: "ehv44140"
   
