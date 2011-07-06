@@ -1,3 +1,9 @@
 [submodule "vendor/plugins/redmine_jchat"]
 	path = vendor/plugins/redmine_jchat
 	url = git://github.com/joshsten/redmine_jchat
+[submodule "redmine_trackmine"]
+	path = vendor/plugins/redmine_trackmine
+	url = git://github.com/fiber/redmine_trackmine.git
+[submodule "vendor/plugins/redmine-timesheet-plugin"]
+	path = vendor/plugins/redmine-timesheet-plugin
+	url = git://github.com/edavis10/redmine-timesheet-plugin.git
