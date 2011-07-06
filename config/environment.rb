@@ -1,7 +1,3 @@
-# session randomness
-
-#config.action_controller.session = {:key=> "_myapp_session",:secret=>"234kjhaedlkjhadsfka3e3214adsf234"}
-
 # Be sure to restart your web server when you modify this file.
 
 # Uncomment below to force Rails into production mode when 
@@ -48,6 +44,8 @@ Rails::Initializer.run do |config|
   # Use Active Record's schema dumper instead of SQL when creating the test database
   # (enables use of different database adapters for development and test environments)
   # config.active_record.schema_format = :ruby
+  # adding session key
+  config.action_controller.session = { :key=>"_myapp_session", :secret => "I like turtles" }
   
   # Deliveries are disabled by default. Do NOT modify this section.
   # Define your email configuration in configuration.yml instead.
