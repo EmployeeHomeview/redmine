@@ -1,3 +1,0 @@
-[submodule "vendor/plugins/redmine_jchat"]
-	path = vendor/plugins/redmine_jchat
-	url = git://github.com/joshsten/redmine_jchat
