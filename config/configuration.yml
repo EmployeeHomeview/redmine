@@ -12,9 +12,9 @@
 #
 # ==== Sendmail command
 #
-# production:
-#   email_delivery:
-#     delivery_method: :sendmail
+production:
+   email_delivery:
+     delivery_method: :sendmail
 #
 # ==== Simple SMTP server at localhost
 #
@@ -78,17 +78,17 @@
 
 
 # default configuration options for all environments
-default:
+#default:
   # Outgoing emails configuration (see examples above)
-  email_delivery:
-    delivery_method: :smtp
-    smtp_settings:
-      address: secure.emailsrvr.com
-      port: 587
-      domain: "employeehomeview.com"
-      authentication: :login
-      user_name: "jstainbrook@employeehomeview.com"
-      password: "ehv44140"
+ # email_delivery:
+  #  delivery_method: :smtp
+   # smtp_settings:
+    #  address: secure.emailsrvr.com
+     # port: 587
+      #domain: "employeehomeview.com"
+      #authentication: :login
+      #user_name: "jstainbrook@employeehomeview.com"
+      #password: "ehv44140"
   
   # Absolute path to the directory where attachments are stored.
   # The default is the 'files' directory in your Redmine instance.
