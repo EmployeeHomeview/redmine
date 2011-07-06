@@ -4,3 +4,6 @@
 [submodule "vendor/plugins/redmine-timesheet-plugin"]
 	path = vendor/plugins/redmine-timesheet-plugin
 	url = git://github.com/edavis10/redmine-timesheet-plugin.git
+[submodule "vendor/plugins/redmine_trackmine"]
+	path = vendor/plugins/redmine_trackmine
+	url = git://github.com/fiber/redmine_trackmine.git
