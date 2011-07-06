@@ -83,12 +83,12 @@ default:
   email_delivery:
     delivery_method: :smtp
     smtp_settings:
-      address: mail.employeehomeview.com
+      address: "mail.employeehomeview.com"
       port: 25
-      domain: employeehomeview.com
+      domain: "employeehomeview.com"
       authentication: :login
       user_name: "jstainbrook@employeehomeview.com"
-      password: "evh44140"
+      password: "ehv44140"
   
   # Absolute path to the directory where attachments are stored.
   # The default is the 'files' directory in your Redmine instance.
