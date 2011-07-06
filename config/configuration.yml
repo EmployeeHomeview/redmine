@@ -83,7 +83,7 @@ default:
   email_delivery:
     delivery_method: :smtp
     smtp_settings:
-      address: "mail.employeehomeview.com"
+      address: secure.emailsrvr.com
       port: 25
       domain: "employeehomeview.com"
       authentication: :login
