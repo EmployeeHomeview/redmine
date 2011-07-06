@@ -56,9 +56,9 @@
 # This requires some additional configuration.  See the article at:
 # http://redmineblog.com/articles/setup-redmine-to-send-email-using-gmail/
 #
- production:
-   email_delivery:
-     delivery_method: :sendmail
+# production:
+#   email_delivery:
+#     delivery_method: :sendmail
 #     smtp_settings:
 #       tls: true
 #       address: "smtp.gmail.com"
@@ -79,7 +79,7 @@
 
 # default configuration options for all environments
 default:
-  Outgoing emails configuration (see examples above)
+  # Outgoing emails configuration (see examples above)
    email_delivery:
      deliver_method: :sendmail
   #   delivery_method: :smtp
